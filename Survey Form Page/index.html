@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8"> <meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1><img id='logo' src="https://irp.cdn-website.com/7bfc85fa/dms3rep/multi/inman-social-stacked-black.svg" width="85%" height=
+  "15%"></h1>
+    <h1 id="title">Experience Survey</h1>
+  </header>
+  <div class="container">
+    <form id="survey-form"">
+      <p id="description">Please take some time to tell us about your evening.<p>
+      <fieldset>
+        <label for="name" id="name-label"> Full Name:<input required placeholder="e.g.; Wesley True" type="text" id="name" name="name" /></label>
+        <label for="email" id="email-label"> Email:<input required placeholder="e.g.;truewes@gmail.com" type="email" id="email" name="email"/></label>
+       </fieldset>
+       <fieldset>
+         <label for="number" id="number-label">How many guests were in your party this evening? <i></i> <input required type="number" min="1" max="120" id="number" placeholder="e.g.; 12" /></label>
+       </fieldset>
+       <fieldset>
+         <label for="referral" id="referral-label">How did you find out about Inman Social? </label>
+           <select required id="dropdown" />
+             <option value="">(select one)</option>
+             <option value="1">Review Service (Yelp, Tripadvisor, etc.)</option>
+             <option value="2">Social Media Posts (Facebook, Instagram, etc.)</option>
+             <option value="3">Word of Mouth</option>
+             <option value="4">Other</option>
+           </select>
+       </fieldset>
+       <fieldset>
+         <label>Which of these were highlights in your experience? (Select all that apply)</label>
+           <div class="highs-inputs">
+             <label for="menu"><input type="checkbox" class="inline" value="good-menu" name="menu">Food and Drink Selection</label>
+             <label for="service"><input type="checkbox" class="inline" value="good-service" name="service">Service</label>
+             <label for="atmosphere"><input type="checkbox" class="inline" value="good-vibes" name="atmosphere">Atmosphere</label>
+           </div>        
+       </fieldset>
+       <fieldset>
+         <label>Would you easily recommend us to a friend?</label>
+           <div class="recs-inputs">
+             <label><input checked required name="recommendation" type="radio" class="inline" value="Recommended"> Yes</label>
+             <label><input required name="recommendation" type="radio" class="inline" value="Not-Recommended"> No</label>
+           </div>
+         </fieldset>
+         <fieldset>
+           <label>Comments:<textarea id="comments" name="comments" rows="3" cols="30" placeholder="What delighted you? What could we work on?" /></textarea></label>  
+         </fieldset>
+         <fieldset>
+         <input type="submit" id="submit" value="Submit" target="blank" />
+         <fieldset>
+     </form>
+  </div>     
+</body>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='./styles.css'>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+  </style>
+</head>
+  <body>
+  <div id='container'>
+    <nav id='navbar'>
+      <header>Pollux Systems <br><br>xyPHOS Personal Disruptor Unit <br><br>Series 3000kWh, 3500kWh, 3700kWh </header>
+        <ul>
+          <li><a class='nav-link' href="#Introduction">Introduction</a></li>
+          <li><a class='nav-link' href="#Quick_Setup">Quick Setup</a></li>
+          <li><a class='nav-link' href="#Secure_User_Access">Secure User Access</a></li>
+          <li><a class='nav-link' href="#Fire_Control_Operation">Fire Control Operation</a></li>
+          <li><a class='nav-link' href="#Advanced_Operation">Advanced Operation</a></li>
+        </ul>
+    </nav>
+    <main id='main-doc'>
+      <section class='main-section' id='Introduction'>
+        <header><h2>Introduction</h2></header>
+        <p>Congratulations on the requisition of your xyPHOS 3000 Series Personal Distruptor Unit! The xyPHOS 3000 Series represents a practical fusion between the bleeding edge of photonic disruption technology with the ruggedness and reliability of time-tested design--ensuring the operator flexibility, security and predictable behavior in all modern high-energy incursion scenarios.</p>
+        <br>
+        <p>Before operating your xyPHOS 3000 Series Personal Disruptor Unit, carefully read this documentation to familiarize yourself with its routine technical functions. While the xyPHOS is designed to be user friendly, it is inadvisable to activate or operate the unit without first fully understanding the procedures and risks associated with high-energy photonic disruption.</p>    
+          <ul>
+            <li><span>WARNING: PHOTONIC DISRUPTION WEAPON</span>. This device directs weapons grade radiative energy in LETHAL DOSAGES. DO NOT USE without proper training and certification.</li>
+            <br>
+            <li><span>L1 CLASS SPECIALIST REQUIRED:</span> if this weapon has not been directly issued by a Quatermaster, Armorer, etc., and/or you do not have a user access code, return this requisiton to the relevant authorities IMMEDIATELY.</li>
+          </ul>
+      </section>
+      <section class='main-section' id='Quick_Setup'>
+        <header><h2>Quick Setup</h2></header>
+        <p>Your xyPHOS 3000 Series PDU should have come with an accompanying 3-foot USB Type-C charging cable. This will be used to charge the device as well as accessing the your Pollux Systems secure Operator Profile ("s-OP").</p>
+        <p>Connecting the device to a computer or mobile device will direct you to the Pollux Systems xyPHOS User Control Center and will automatically begin building your s-OP. Once this process is completed, you alone will be the authorized operator of this device. </p>    
+          <ul>
+            <li><b>Remove all gloves or other garments that might obstruct the scanning process.</b> Place your hands on the two Secure Operation Points--located at the Grip and along the Forward Projector</li>
+            <li><b>For operators with bionics, cybernetics, or other accessibility issues</b>: You can easily register your manipulator as part of your s-OP Profile by connecting it to the xyPHOS with an appropriate USB-C adapter.</li>
+          </ul>         
+             
+      </section>
+      <section class='main-section' id='Secure_User_Access'>
+        <header><h2>Secure User Access</h2></header>
+        <p>Lorem Ipsum</p>
+        <p>Dixit facit</p>    
+          <ul>
+            <li>ubi sunt</li>
+            <li>ecce panis</li>
+          </ul>          
+     
+      </section>
+      <section class='main-section' id='Fire_Control_Operation'>
+        <header><h2>Fire Control Operation</h2></header>
+        <p>Lorem ipsum</p>
+        <p>Dixit facit</p>
+          <ul>
+            <li>ubi sunt</li>
+            <li>ecce panis</li>
+          </ul>                  
+      </section>
+      <section class='main-section' id='Advanced_Operation'>
+        <header><h2>Advanced Operation</h2></header>
+        <p><b>Output Modulation</b>: Your xyPHOS Series 3000 PDU has a default kilowatt-hour output equal to its model number. This has been tested to be more than adequate in most small-arms and modern light armor incursions. However, you may wish to dial in a specific output to conserve the power-unit, or in surgical security operations in which the full output is not required or is inappropriate for the arena. </p>
+        <p>This can be achieved by setting the Fire Control Switch to one of the three defaul settings already provided on your xyPHOS PDU. You can also fine tune these presets to any value that suits your typical theatre of operation.</p>    
+          <ul>
+            <li>Connect the xyPHOS PDU to a computer and mobile device to access the User Control Center. </li>
+            <br>
+            <li>Select 'Fire Control Settings' and select from the pre-defined options, or input the following string to define a custom setting:
+              <br><br>
+              <code>User[Output_Mod] pos1.kHw('number')</code>
+              <br><br>
+              The syntax 'pos1' reflects a numbered position on the Fire Control Switch, and the 'number' is any positive integer within the maximum output of the xyPHOS PDU. This will override the factory default. Simply erasing the string will reset the value to the original setting.
+              </li>
+              <br>
+              <li><b>For Modulating Continuous Output Mode</b>: The character of the continuous output mode can be modulated throughout the activation time. 
+              <br>
+              <br>
+              By default, this mode progressively dials down the initial energy output of the xyPHOS PDU to prevent premature power-unit failure.
+              <br>
+              <br>
+              To change this behavior, locate the numerical values in the following string:
+              <br>
+              <br>
+              <code>Output(mode='cont').pos1 Mod[init=100%, sust=85%, trans=.01s]</code>
+              <br>
+              <br>
+              Here, the initial <code>'init'</code> and sustained <code>'sust'</code> output values are represented as percentages of the value defined in the fire control setting defined for that position (<code>'pos1', 'pos2' etc.</code>)
+              The transition <code>'trans'</code> property will accept any positive integer in seconds.
+              </li>
+              
+            
+          </ul>                
+      </section>
+    </main>
+    </div>  
+   </body>
+</html>
