@@ -8,10 +8,14 @@ The projects here are meant to showcase a working knowledge of HTML and CSS. spe
     Right now, the @media rules size the pages down from the baseline desktop version. 
     I think it would have made more sense to start small and then scale up.
 
-<a href='Product Landing Page/index.html'>Product Landing Page</a>
+<a href='Product Landing Page/index.html'>Product Landing Page</a>  
+
 <br>
-<a href='Tribute Page/index.html'>Tribute Page</a>
+<a href='Tribute Page/index.html'>Tribute Page</a>  
+
 <br>
-<a href='Technical Documentation Page/index.html'>Technical Documentation Page</a>
+<a href='Technical Documentation Page/index.html'>Technical Documentation Page</a>  
+
 <br>
-<a href='Survey Form Page/index.html'>Survey Form Page</a>
+<a href='Survey Form Page/index.html'>Survey Form Page</a>  
+
