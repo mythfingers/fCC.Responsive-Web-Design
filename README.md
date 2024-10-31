@@ -10,12 +10,12 @@ The projects here are meant to showcase a working knowledge of HTML and CSS. spe
 
 <a href='Product Landing Page/index.html'>Product Landing Page</a>  
 
-<br>
+
 <a href='Tribute Page/index.html'>Tribute Page</a>  
 
-<br>
+
 <a href='Technical Documentation Page/index.html'>Technical Documentation Page</a>  
 
-<br>
+
 <a href='Survey Form Page/index.html'>Survey Form Page</a>  
 
