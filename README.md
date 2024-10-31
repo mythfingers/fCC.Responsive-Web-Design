@@ -7,3 +7,8 @@ The projects here are meant to showcase a working knowledge of HTML and CSS. spe
 ---Self-Critique: I think given that mobile is the dominant device these days, I would have restructured my approach had I known how media rules worked right away.
     Right now, the @media rules size the pages down from the baseline desktop version. 
     I think it would have made more sense to start small and then scale up.
+
+<a href=''>Product Landing Page</a>
+<a href=''>Tribute Page</a>
+<a href=''>Technical Documentation Page</a>
+<a href=''>Survey Form Page</a>
